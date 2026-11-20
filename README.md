@@ -53,7 +53,7 @@ window functions (cumulative revenue, ranking) and a fare-anomaly screen. Standa
 MySQL: `pip install sqlalchemy pymysql`, then `python -m src.build_database --url mysql+pymysql://user:pw@localhost/ola`.
 
 ## Power BI
-Open `powerbi/POWERBI_GUIDE.md` - cleaned tables, theme, 20+ DAX measures and a visual-by-visual layout for the five pages
+Open `powerbi` - cleaned tables, theme, 20+ DAX measures and a visual-by-visual layout for the five pages
 (Overall, Vehicle Type, Revenue, Cancellation, Ratings). Then publish and paste the embed link into the app's **Power BI** tab
 (`POWERBI_EMBED_URL`).
 
