@@ -53,7 +53,7 @@ window functions (cumulative revenue, ranking) and a fare-anomaly screen. Standa
 MySQL: `pip install sqlalchemy pymysql`, then `python -m src.build_database --url mysql+pymysql://user:pw@localhost/ola`.
 
 ## Power BI
-Open `powerbi/POWERBI_GUIDE.md` - cleaned tables, theme, 20+ DAX measures and a visual-by-visual layout for the five pages
+Open `powerbi` - cleaned tables, theme, 20+ DAX measures and a visual-by-visual layout for the five pages
 (Overall, Vehicle Type, Revenue, Cancellation, Ratings). Then publish and paste the embed link into the app's **Power BI** tab
 (`POWERBI_EMBED_URL`).
 
@@ -61,5 +61,4 @@ Open `powerbi/POWERBI_GUIDE.md` - cleaned tables, theme, 20+ DAX measures and a 
 Push to GitHub > share.streamlit.io > main file `app/streamlit_app.py`. Commit `db/ola.db` (or run `make all` in a build step).
 Add `POWERBI_EMBED_URL` under *Secrets*.
 
-## Git workflow
-Conventional commits (`feat:`, `fix:`, `docs:`, `test:`), one logical change per commit, work on feature branches, merge to `main`.
+
